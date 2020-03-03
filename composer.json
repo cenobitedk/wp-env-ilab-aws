@@ -1,0 +1,27 @@
+{
+  "name": "cenobitedk/wp-env-ilab-aws",
+  "description": "Export Interfacelab Media Cloud configuration for WordPress",
+  "type": "library",
+  "keywords": [
+    "WordPress",
+    "Amazon Web Services",
+    "Amazon AWS",
+    "Interfacelab Media Cloud",
+    "S3"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeppe Hasseriis",
+      "email": "j.hasseriis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "files": [
+      "src/AWS.php"
+    ]
+  }
+}
