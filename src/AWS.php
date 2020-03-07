@@ -1,9 +1,9 @@
 <?php
 
 define('MCLOUD_STORAGE_PROVIDER', getenv('CLOUD_STORAGE_PROVIDER') ?: 's3');
-define('MCLOUD_STORAGE_S3_ACCESS_KEY', getenv('AWS_S3_ACCESS_KEY'));
-define('MCLOUD_STORAGE_S3_SECRET', getenv('AWS_S3_ACCESS_SECRET'));
-define('MCLOUD_STORAGE_S3_BUCKET', getenv('AWS_S3_BUCKET'));
-define('MCLOUD_STORAGE_S3_REGION', getenv('AWS_S3_REGION'));
-define('MCLOUD_STORAGE_PREFIX', getenv('AWS_S3_PREFIX') ?: '@{date:Y/m}');
-define('MCLOUD_STORAGE_CACHE_CONTROL', getenv('AWS_S3_CACHE_CONTROL') ?: 'public,max-age=2592000');
+define('MCLOUD_STORAGE_S3_ACCESS_KEY', getenv('AWS_ACCESS_KEY_ID'));
+define('MCLOUD_STORAGE_S3_SECRET', getenv('AWS_SECRET_ACCESS_KEY'));
+define('MCLOUD_STORAGE_S3_BUCKET', getenv('AWS_BUCKET'));
+define('MCLOUD_STORAGE_S3_REGION', getenv('AWS_REGION'));
+define('MCLOUD_STORAGE_PREFIX', getenv('AWS_PREFIX') ?: '@{date:Y/m}');
+define('MCLOUD_STORAGE_CACHE_CONTROL', getenv('AWS_CACHE_CONTROL') ?: 'public,max-age=2592000');

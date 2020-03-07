@@ -1,7 +1,7 @@
 {
   "name": "cenobitedk/wp-env-ilab-aws",
   "description": "Export Interfacelab Media Cloud configuration for WordPress",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "library",
   "keywords": [
     "WordPress",
